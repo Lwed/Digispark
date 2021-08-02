@@ -1,4 +1,4 @@
-//8 2 2021 LeoW
+//8 2 2021 Lu
 // This Script automaticly installs ESET NOD32 antivirus on Windows 10 systems via powershell commands and a software packaging installer called chocolately
 // 1.0 Initial Write
 #include "DigiKeyboard.h"
