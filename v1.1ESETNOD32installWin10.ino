@@ -27,5 +27,6 @@ void loop() {
   DigiKeyboard.delay(1500);
   DigiKeyboard.println("choco install eset-nod32-antivirus --upgrade --ignore-checksums --force -a -y; sleep 3"); //installs ESET NOD32 AntiVirus
   DigiKeyboard.delay(50000);
+  DigiKeyboard.println("Set-ExecutionPolicy Restricted"); 
   DigiKeyboard.println("exit");
 }
