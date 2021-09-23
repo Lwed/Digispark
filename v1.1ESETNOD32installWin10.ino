@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  DigiKeyboard.sendKeyStroke(0); // wakes keyboard if nessisary
+  DigiKeyboard.sendKeyStroke(0); // wakes keyboard if necessary
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_X, MOD_GUI_LEFT); // opens menu
   DigiKeyboard.delay(1500);
